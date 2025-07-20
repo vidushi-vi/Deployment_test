@@ -1,8 +1,11 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+st.write("Imports up to numpy successful.")
 from sklearn.model_selection import train_test_split
+st.write("sklearn.model_selection imported successfully.")
 from sklearn.linear_model import LinearRegression
+st.write("LinearRegression imported successfully.")
 from sklearn.metrics import mean_squared_error, r2_score
 import plotly.express as px
  
